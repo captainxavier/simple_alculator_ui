@@ -1,4 +1,4 @@
-package com.xavier.mycalculator.composeCalculator
+package com.xavier.mycalculator.data
 
 sealed class CalculatorAction{
     data class Number(val number:Int):CalculatorAction()

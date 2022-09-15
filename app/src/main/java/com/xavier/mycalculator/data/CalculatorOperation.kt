@@ -1,4 +1,4 @@
-package com.xavier.mycalculator.composeCalculator
+package com.xavier.mycalculator.data
 
 sealed class CalculatorOperation(val symbol:String){
     object  Add:CalculatorOperation("+")
